@@ -6,12 +6,12 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <Navigationbar/>
-      <Routes>
-        <Route path="/" wlwment={<Home />} />
-      </Routes>
+         <Navigationbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
       </BrowserRouter>
-      
+
     </div>
   );
 };
