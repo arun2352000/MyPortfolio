@@ -3,7 +3,9 @@ import React from 'react';
 const Navigationbar = () => {
     return (
         <div>
-            <div></div>
+            <div>
+                <nav></nav>
+            </div>
         </div>
     );
 };
