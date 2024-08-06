@@ -4,7 +4,13 @@ const Navigationbar = () => {
     return (
         <div>
             <div>
-                <nav></nav>
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>skils</li>
+                    <li>work</li>
+                    <li>blog</li>
+                </ul>
             </div>
         </div>
     );
