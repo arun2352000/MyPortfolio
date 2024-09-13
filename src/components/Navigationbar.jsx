@@ -7,10 +7,12 @@ const Navigationbar = () => {
                 <a href="#">logo</a>
                 <div>
                     <ul className='flex'>
-                        <li><Link to="/Home" className="nav-link" href="#">
+                        <li><Link to="/" className="nav-link" href="#">
                         home
                         </Link></li>
-                        <li>about</li>
+                        <li><Link to="/About" className="nav-link" href="#">
+                        about
+                        </Link></li>
                         <li>skils</li>
                         <li>portfolios</li>
                         <li>blog</li>
