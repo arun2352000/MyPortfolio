@@ -12,10 +12,10 @@ const Navigationbar = () => {
                         </Link></li>
                         <li><Link to="/About" className="nav-link" href="#">
                         about
-                        </Link></li>
-                        <li>skils</li>
-                        <li>portfolios</li>
-                        <li>blog</li>
+                        </Link></li>  {/* to be converted as work exp */}
+                        <li><Link to="/Skils" className="nav-link" href="#">skils</Link></li>
+                        <li><Link to="/portfolio" className="nav-link" href="#">portfolios</Link></li>
+                        <li><Link to="/contactform" className="nav-link" href="#">contact me</Link></li>
                     </ul>
                 </div>
             </header>
