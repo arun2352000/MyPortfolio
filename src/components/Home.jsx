@@ -4,8 +4,8 @@ const Home = () => {
     return (
       <div>
         
-        <div className='flex'>
-          <div className='w-1/2'>
+        <div className='flex px-5 py-20 justify-center'>
+          <div className='w-1/2  py-20 justify-center'>
             <h2 className=''>Hello,</h2>
             <h1>I'm Arunachalam,</h1>
             <h3>
@@ -16,7 +16,7 @@ const Home = () => {
             <img 
               src="/src/assets/avatar-image.png"
               alt=""
-              className=""
+              className="w-1/4 justify-center"
             />
         </div>
         
@@ -31,7 +31,52 @@ const Home = () => {
            </p>
           
         </div>
-        
+        <div>
+          <h1>Skills</h1>
+          <ol>
+            <ul className=''><h1>Frontend Development</h1>
+              <li><img src="/src/assets/htmllogo.png" alt="" /></li>
+              <li><img src="/src/assets/CSSlogo.png" alt="" /></li>
+              <li><img src="/src/assets/jslogo.png" alt="" /></li>
+              <li><img src="/src/assets/reactlogo.png" alt="" /></li>
+              <li><img src="/src/assets/bootstrap.png" alt="" /></li>
+              <li><img src="/src/assets/tailwind.png" alt="" /></li>
+              </ul>
+            <ul> <h1>Backend Development</h1>
+              <li><img src="/src/assets/nodejslogo.png" alt="" /></li>
+              <li><img src="/src/assets/expresslogo.png" alt="" /></li>
+              <li><img src="/src/assets/mongodblogo.png" alt="" /></li>
+              </ul> 
+            {/* <li>Database Management</li>  */}
+            
+            <ul> <h1>Version Control</h1> 
+            <li><img src="/src/assets/gitlogo.png" alt="" /></li>
+            </ul>
+            </ol>
+        </div>
+
+        <div>
+          <h1>Projects</h1>
+          <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+            <li>Project 4</li>
+          </ul>
+        </div>
+
+        <div>
+          <h1>Get in Touch</h1>
+          <form action="">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required></input><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required></input><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" required></textarea><br />
+            <input type="submit" value="Submit"></input>
+          </form>
+        </div>
       </div>
     );
 };

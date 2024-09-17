@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Navigationbar = () => {
     return (
         <div>
-            <header className="flex justify-between px-2 bg-primary">
+            <header className="flex justify-between px-2 py-4 bg-primary">
                 <a href="#">logo</a>
                 <div>
                     <ul className='flex'>
