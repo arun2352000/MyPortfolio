@@ -8,5 +8,8 @@ header ul li {
 
 .bg-primary{
 
-  background: rgb(85, 81, 227);
+  background: rgb(119,138,53);
 }
+.bg-secondary{
+  background: rgb(209,226,196);
+  }

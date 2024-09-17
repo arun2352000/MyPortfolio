@@ -4,8 +4,8 @@ const Home = () => {
     return (
       <div>
         
-        <div className='flex px-5 py-20 justify-center'>
-          <div className='w-1/2  py-20 justify-center'>
+        <div className='flex px-5 py-20 justify-center bg-secondary'>
+          <div className='w-1/2  py-40 justify-center'>
             <h2 className=''>Hello,</h2>
             <h1>I'm Arunachalam,</h1>
             <h3>
@@ -16,7 +16,7 @@ const Home = () => {
             <img 
               src="/src/assets/avatar-image.png"
               alt=""
-              className="w-1/4 justify-center"
+              className="w-1/4 px-5 justify-center"
             />
         </div>
         
