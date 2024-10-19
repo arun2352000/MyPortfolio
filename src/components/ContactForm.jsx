@@ -1,6 +1,20 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+import axios from 'axios';
+import { useState  } from 'react';
 const ContactForm = () => {
+    const [postData, setPostData]= useState([])
+    const [postMsg, setPostMsg] = useState();
+    const handleSubmit=()=>{
+        postCall();
+    }
+    const postCall = async()={
+        axios.post('',payload)
+        .then((res)=>{
+          setPostData(res.data.data)  
+            setPostMsg(res.data.message)
+        }) 
+        .catch((err)=>console.log(err))
+    }
     return (
         <div>
             <h1>contact form test page</h1>
