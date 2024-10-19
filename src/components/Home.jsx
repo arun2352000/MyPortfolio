@@ -35,22 +35,22 @@ const Home = () => {
           <h1>Skills</h1>
           <ol>
             <ul className=''><h1>Frontend Development</h1>
-              <li><img src="/src/assets/htmllogo.png" alt="" /></li>
-              <li><img src="/src/assets/CSSlogo.png" alt="" /></li>
-              <li><img src="/src/assets/jslogo.png" alt="" /></li>
-              <li><img src="/src/assets/reactlogo.png" alt="" /></li>
-              <li><img src="/src/assets/bootstrap.png" alt="" /></li>
-              <li><img src="/src/assets/tailwind.png" alt="" /></li>
+              <li><img src="/assets/htmllogo.png" alt="" /></li>
+              <li><img src="/assets/CSSlogo.png" alt="" /></li>
+              <li><img src="/assets/jslogo.png" alt="" /></li>
+              <li><img src="/assets/reactlogo.png" alt="" /></li>
+              <li><img src="/assets/bootstrap.png" alt="" /></li>
+              <li><img src="/assets/tailwind.png" alt="" /></li>
               </ul>
             <ul> <h1>Backend Development</h1>
-              <li><img src="/src/assets/nodejslogo.png" alt="" /></li>
-              <li><img src="/src/assets/expresslogo.png" alt="" /></li>
-              <li><img src="/src/assets/mongodblogo.png" alt="" /></li>
+              <li><img src="/assets/nodejslogo.png" alt="" /></li>
+              <li><img src="/assets/expresslogo.png" alt="" /></li>
+              <li><img src="/assets/mongodblogo.png" alt="" /></li>
               </ul> 
             {/* <li>Database Management</li>  */}
             
             <ul> <h1>Version Control</h1> 
-            <li><img src="/src/assets/gitlogo.png" alt="" /></li>
+            <li><img src="/assets/gitlogo.png" alt="" /></li>
             </ul>
             </ol>
         </div>
