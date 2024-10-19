@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily :{
+      'text':'Playwrite GB S',
+      'title':'Roboto Mono',
+    }
   },
   plugins: [],
 }

@@ -1,0 +1,42 @@
+import React from 'react';
+
+const Hero = () => {
+    return (
+        <div>
+       {/* <section className='flex px-5 py-32 bg-secondary justify-center'>
+              <div className='w-1/2  py-40 justify-center'>
+              <h1 className='w-1/2 text-5xl py-10 '>Hello,<br /> I'm Arunachalam,
+              <h3 className='text-3xl' >
+              a MERN stack web developer bringing a fresh perspective to web
+              design.
+                </h3>
+              </h1> 
+              <img 
+              src="/assets/avatar-image.png"
+              alt=""
+              className="w-1/3 px-5 justify-center"
+            />          
+            </div>
+       </section> */}
+
+<div className='flex px-5 py-32 justify-center bg-secondary'>
+<div className='w-1/2  py-28 justify-center'>
+  <h2 className='text-5xl font-bold'>Hello,</h2>
+  <h1 className=' text-5xl'>I'm <span className='font-bold'>Arunachalam</span>,</h1>
+  <h3 className='text-3xl font-text' >
+    a MERN stack web developer bringing a fresh perspective to web
+    design.
+  </h3>
+  </div>
+  <img 
+    src="/assets/avatar-image.png"
+    alt=""
+    className="w-1/3 px-5 justify-center"
+  />
+</div>
+</div>
+
+    );
+};
+
+export default Hero;

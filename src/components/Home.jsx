@@ -7,7 +7,7 @@ const Home = () => {
         <div className='flex px-5 py-20 justify-center bg-secondary'>
           <div className='w-1/2  py-40 justify-center'>
             <h2 className=''>Hello,</h2>
-            <h1>I'm Arunachalam,</h1>
+            <h1 className='font-bold'>I'm Arunachalam,</h1>
             <h3>
               a MERN stack web developer bringing a fresh perspective to web
               design.
