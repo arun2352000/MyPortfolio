@@ -14,7 +14,7 @@ const Home = () => {
             </h3>
             </div>
             <img 
-              src="/public/assets/avatar image.png"
+              src="/assets/avatar-image.png"
               alt=""
               className="w-1/4 px-5 justify-center"
             />
