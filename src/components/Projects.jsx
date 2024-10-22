@@ -6,8 +6,8 @@ const Projects = () => {
         projects : [
             {
                 image: '',
-                description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: 'https://github.com/arun2352000/ecommerce_AP'
+                description: 'inventry billing Website . Built with MERN Stack.',
+                link: 'https://github.com/arun2352000/Back-end-Arunachalamwd55T-inventry-billing-app--backend'   
             },
             {
                 image: '',
@@ -20,9 +20,10 @@ const Projects = () => {
                 link: 'https://github.com/arun2352000/blog-page'
             },
             {
+                
                 image: '',
-                description: 'inventry billing Website . Built with MERN Stack.',
-                link: 'https://github.com/arun2352000/Back-end-Arunachalamwd55T-inventry-billing-app--backend'
+                description: 'A Ecommerce Website. Built with MERN Stack.',
+                link: 'https://github.com/arun2352000/ecommerce_AP'
             }
         ]
     }
