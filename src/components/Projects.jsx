@@ -5,12 +5,12 @@ const Projects = () => {
     const config = {
         projects : [
             {
-                image: '',
+                image: '/assets/inventry.png',
                 description: 'inventry billing Website . Built with MERN Stack.',
                 link: 'https://github.com/arun2352000/Back-end-Arunachalamwd55T-inventry-billing-app--backend'   
             },
             {
-                image: '',
+                image: '/assets/todo .png',
                 description: 'A todo app, Built with MERN Stack.',
                 link: 'https://github.com/arun2352000/todo'
             },
