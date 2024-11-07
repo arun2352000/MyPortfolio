@@ -13,10 +13,10 @@ const Hero = () => {
                     design.
                 </h3>
                 <div className='flex py-10' >
-                    <a href="https://github.com/arun2352000" className='pr-5 hover:text-white' ><AiOutlineGithub size={30}/></a>
-                    <a href="" className='pr-5 hover:text-white'><AiOutlineFacebook size={30}/></a>
-                    <a href="http://www.linkedin.com/in/arunachalam2352000" className='pr-5 hover:text-white'><AiOutlineLinkedin size={30}/></a>
-                    <a href=""></a>
+                    <a target="_blank"href="https://github.com/arun2352000" className='pr-5 hover:text-white' ><AiOutlineGithub size={30}/></a>
+                    <a target="_blank"href="" className='pr-5 hover:text-white'><AiOutlineFacebook size={30}/></a>
+                    <a target="_blank"href="http://www.linkedin.com/in/arunachalam2352000" className='pr-5 hover:text-white'><AiOutlineLinkedin size={30}/></a>
+                    <a target="_blank"href=""></a>
                 </div>
             </div>
             <img
