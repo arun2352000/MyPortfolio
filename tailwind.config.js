@@ -9,6 +9,7 @@ export default {
     fontFamily :{
       'text':'Playwrite GB S',
       'title':'Roboto Mono',
+      'logo':'Sevillana',
     }
   },
   plugins: [],

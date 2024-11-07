@@ -10,6 +10,7 @@ import Projects from './components/Projects.jsx';
 import Resume from './components/Resume.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import Skils from './components/Skils.jsx';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       {/* <Home /> */}
       <Hero />
       <About/>
+      <Skils />
       <Projects/>
       <Resume/>
       <Contact/>

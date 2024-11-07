@@ -1,0 +1,121 @@
+// example form copilet
+
+import React from 'react';
+
+// Example icons (replace with actual paths to your icons)
+const techStacks = [
+  { name: 'React.js', src: 'path/to/react-icon.png' },
+  { name: 'Next.js', src: 'path/to/next-icon.png' },
+  { name: 'JavaScript', src: 'path/to/javascript-icon.png' },
+  { name: 'Typescript.js', src: 'path/to/typescript-icon.png' },
+  { name: 'Redux', src: 'path/to/redux-icon.png' },
+  { name: 'Node.js', src: 'path/to/node-icon.png' },
+  { name: 'MongoDB', src: 'path/to/mongodb-icon.png' },
+  { name: 'Tailwind', src: 'path/to/tailwind-icon.png' },
+  { name: 'Bootstrap', src: 'path/to/bootstrap-icon.png' },
+  { name: 'HTML', src: 'path/to/html-icon.png' },
+  { name: 'CSS', src: 'path/to/css-icon.png' },
+  { name: 'GitHub', src: 'path/to/github-icon.png' },
+];
+
+const TechStacks = () => {
+  return (
+    <div className="bg-gray-900 text-white min-h-screen flex items-center justify-center">
+      <div className="container mx-auto py-12">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold">The Tech Stacks</h1>
+          <p className="text-xl">What in My Skills</p>
+        </div>
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-8">
+          {techStacks.map((stack, index) => (
+            <div
+              key={index}
+              className="text-center transform transition duration-500 hover:scale-110"
+            >
+              <img
+                src={stack.src}
+                alt={stack.name}
+                className="mx-auto mb-2 w-16 h-16"
+              />
+              <p>{stack.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TechStacks;
+
+
+
+
+// first edit
+
+
+// <div id='skils' className='bg-secondary'>
+        //     <div>
+        //         <h1 className='text-center text-black'>My Skills</h1>
+        //     </div>
+        //     <div>
+        //         <div>
+        //             <h2>Frontend skils</h2>
+        //         </div>
+        //         <div className='flex justify-center list-none '>
+        //             <li><img src="/assets/htmllogo.png" alt="" /></li>
+        //             <li><img src="/assets/CSSlogo.png" alt="" /></li>
+        //             <li><img src="/assets/jslogo.png" alt="" /></li>
+        //             <li><img src="/assets/reactlogo.png" alt="" /></li>
+        //             <li><img src="/assets/bootstrap.png" alt="" /></li>
+        //             <li><img src="/assets/tailwind.png" alt="" /></li>
+        //         </div>
+        //     </div>
+        //     <div>
+        //         <div>
+        //             <h2>Backend skils</h2>
+        //         </div>
+        //         <div className='flex'>
+        //             <li><img src="/assets/nodejslogo.png" alt="" /></li>
+        //             <li><img src="/assets/expresslogo.png" alt="" /></li>
+        //             <li><img src="/assets/mongodblogo.png" alt="" /></li>
+        //         </div>
+        //     </div>
+        //     <div>
+        //         <div>
+        //             <h2>Version Control</h2>
+        //         </div>
+        //         <div>
+        //             <li><img src="/assets/gitlogo.png" alt="" /></li>
+        //         </div>
+        //     </div>
+        // </div>
+
+// second edit using grid
+
+<div className='container mx-auto py-12  '>
+                <div className='text-center mb-8'>
+                    <h1 className='text-center text-black'>My Skills</h1>
+                </div>
+                <div className='text-center mb-8'>
+                    <h1 className='text-center text-black'>Frontend</h1>
+                </div>
+                <div className='grid grid-cols-3 '>
+                    {
+                        frontend.map((skill, index) => (
+                            <div
+                                key={index}
+                                className='text-center transform transition duration-500 hover:scale-110 bg-tertiary'
+                            >
+                                <img src={skill.src} alt={skill.name} className='mx-auto mb-2 w-14 h-18' />
+                                <p className='font-bold'>{skill.name}</p>
+                            </div>
+                        ))}
+                    {/* <div className='text-center transform transition duration-500 hover:scale-110 bg-tertiary'>
+                        <img src="/assets/reactlogo.png" alt="react" className='mx-auto mb-2 w-14 h-18' />
+                        <p className='font-bold'>react</p>
+                    </div> */}
+
+                </div>
+
+            </div>

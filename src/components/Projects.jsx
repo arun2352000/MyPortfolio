@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineGlobal } from 'react-icons/ai';
 
 const Projects = () => {
 
@@ -29,7 +30,7 @@ const Projects = () => {
     }
 
     return (
-        <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-secondary">
+        <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-tertiary ">
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl font-bold font-title">Projects</h1>
@@ -45,6 +46,7 @@ const Projects = () => {
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <div className='flex justify-center'>
                                 <a className='btn' target='_blank' href={project.link}>View Project</a>
+                                <a href=""><AiOutlineGlobal /></a>
                             </div>
                         </div>
                     </div>
