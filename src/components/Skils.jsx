@@ -33,7 +33,7 @@ const Skils = () => {
         
         <section id='skills'className='bg-secondary'>
             
-            <div className='text2xl section_color h-full flex flex-col justify-center'>
+            <div className='text2xl section_color h-full flex flex-col justify-center px-5 py-20 '>
                 <div>
                     <h1 className='text-center text-3xl font-bold font-title'>My Skills</h1>
                     <p className='font-bold text-1xl px-10'>Front-End</p>
