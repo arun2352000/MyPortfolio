@@ -36,7 +36,7 @@ const Skils = () => {
             <div className='text2xl section_color h-full flex flex-col justify-center px-5 py-20 '>
                 <div>
                     <h1 className='text-center text-3xl font-bold font-title'>My Skills</h1>
-                    <p className='font-bold text-1xl px-10'>Front-End</p>
+                    <p className='font-bold text-1xl px-10 py-10 text-2xl '>Front-End</p>
                 </div>
                 <div className='flex flex-row flex-wrap justify-center item-center gap-3 lg:gap-8'>
                 {
@@ -51,14 +51,14 @@ const Skils = () => {
                                 src={skill.src} alt={skill.name} />
 
                         </div>
-                        <p className='text-sm md:text-base'>{skill.name}</p>
+                        <p className='text-sm md:text-base font-bold'>{skill.name}</p>
                     </div>
                     ))}
 
                 </div>
 
                 {/* backend */}
-                <p className='font-bold text-1xl px-10 py-2'>Back-End</p>
+                <p className='font-bold text-1xl px-10 py-10 text-2xl'>Back-End</p>
                 <div className='flex flex-row flex-wrap justify-center item-center gap-3 lg:gap-8'>
                 {
                         backend.map((skill, index) => (
@@ -72,7 +72,7 @@ const Skils = () => {
                                 src={skill.src} alt={skill.name} />
 
                         </div>
-                        <p className='text-sm md:text-base'>{skill.name}</p>
+                        <p className='text-sm md:text-base font-bold'>{skill.name}</p>
                     </div>
                     ))}
 
@@ -80,7 +80,7 @@ const Skils = () => {
 
                 {/* versionControl */}
 
-                   <p className='font-bold text-1xl px-10 py-2'>VersionControl</p> 
+                   <p className='font-bold text-1xl px-10 py-10 text-2xl'>VersionControl</p> 
 
                 <div className='flex flex-row flex-wrap justify-center item-center gap-3 lg:gap-8'>
                 {
@@ -95,7 +95,7 @@ const Skils = () => {
                                 src={skill.src} alt={skill.name} />
 
                         </div>
-                        <p className='text-sm md:text-base'>{skill.name}</p>
+                        <p className='text-sm md:text-base font-bold'>{skill.name}</p>
                     </div>
                     ))}
 
